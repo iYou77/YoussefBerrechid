@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Berrechid | IT Specialist & Cybersecurity</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-main: #c9d1d9;
+            --text-heading: #ffffff;
+            --accent-color: #58a6ff;
+            --accent-hover: #1f6feb;
+            --chip-bg: #21262d;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: var(--text-heading);
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: var(--text-heading);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .job-item, .edu-item {
+            margin-bottom: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            color: var(--text-heading);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .job-meta {
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: var(--chip-bg);
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .skill-card h3 {
+            color: var(--accent-color);
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            color: #8b949e;
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQG-placeholder/profile-displayphoto-shrink_800_800/0" alt="Youssef Berrechid" class="profile-img" id="avatar">
+            <h1>Youssef Berrechid</h1>
+            <div class="subtitle">IT Specialist & Cybersecurity Student</div>
+            <div class="contact-info">
+                <span>📍 Tunis, Tunisia</span>
+                <span>📧 <a href="mailto:deyerrechid654@gmail.com">deyerrechid654@gmail.com</a></span>
+                <span>📱 +216 54 839 050</span>
+                <span>🔗 <a href="https://linkedin.com/in/youssef-ber" target="_blank">LinkedIn Profile</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Motivated IT Specialist and Cybersecurity student with extensive experience in hardware repair, computer motherboard diagnostics, and full-stack web integration. Founder of You77 Bytes (25K+ community followers), demonstrating strong initiative in technical support, PC system repairs, and client service management.</p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            
+            <div class="job-item">
+                <div class="job-header">
+                    <span class="job-title">PC Repair Technician & Web Developer</span>
+                    <span class="job-meta">SGTS | 2026 (1.5 Months)</span>
+                </div>
+                <ul>
+                    <li>Served as a hands-on PC repair technician, troubleshooting, repairing, and optimizing computer hardware systems for client operations.</li>
+                    <li>Designed, developed, and launched the official corporate website for SGTS.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-header">
+                    <span class="job-title">Full-Stack AI Developer Intern</span>
+                    <span class="job-meta">Takolor International | 2025 (2 Months)</span>
+                </div>
+                <ul>
+                    <li>Architected and implemented an AI-powered full-stack web application incorporating real-time camera AI features.</li>
+                    <li>Integrated Stable Diffusion (A1111) and Stream Diffusion pipelines to process text-to-image, video, and image workflows.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-header">
+                    <span class="job-title">Founder & Lead Systems Technician</span>
+                    <span class="job-meta">You77 Bytes | 2023 – Present</span>
+                </div>
+                <ul>
+                    <li>Founded and built a technology repair service and community platform growing to over 25,000 active followers.</li>
+                    <li>Specialized in advanced repair, diagnostics, and high-performance tuning for PC systems, mobile phones, and gaming consoles.</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-header">
+                    <span class="job-title">Hardware Repair & Technical Support Technician</span>
+                    <span class="job-meta">LM Technology | Visa PC | Fiverr (Freelance) | 2023 – 2024</span>
+                </div>
+                <ul>
+                    <li>Executed hardware repairs, component replacements, and software troubleshooting at leading phone and PC repair centers.</li>
+                    <li>Provided remote technical consultation and diagnostic support for international clients on Fiverr.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="edu-item">
+                <div class="job-header">
+                    <span class="job-title">Bachelor of Science in IT & Multimedia</span>
+                    <span class="job-meta">Sesame University - Ariana, Tunis | 2024 – Present</span>
+                </div>
+                <p style="margin-top: 5px;">Focus on IT infrastructure, software development, and cybersecurity principles.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications & Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Hardware & Repair</h3>
+                    <p>Computer Repair, Motherboard Diagnostics (GITAS Certified), Micro-Soldering, System Assembly & Maintenance, Console & Mobile Repair.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>IT & Cybersecurity</h3>
+                    <p>Linux Administration, Cybersecurity Fundamentals, Networking, Python, C Programming (Cisco & Certiport Certified).</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Cloud & AI</h3>
+                    <p>Cloud Computing, AI Pipelines (Stable Diffusion / Stream Diffusion), Azure Data Fundamentals.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <p>English (C1 - Advanced), French (B1 - Intermediate), Arabic (C2 - Native).</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Youssef Berrechid. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Set dynamic current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Optional: Replace broken image with fallback dynamic avatar if needed
+        const avatar = document.getElementById('avatar');
+        avatar.onerror = function() {
+            this.src = 'https://ui-avatars.com/api/?name=Youssef+Berrechid&background=1f6feb&color=fff&size=128';
+        };
+    </script>
+</body>
+</html>
